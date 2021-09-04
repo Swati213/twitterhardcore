@@ -3,7 +3,7 @@ import './Tweetbox.css'
 import { Avatar, Button } from "@material-ui/core";
 import TwitterLogo from './twitterlogo.png'
 import Post from "./Post";
-import Sdata from "./Sdata"
+//import Sdata from "./Sdata"
 
 function TweetBox() {
     const [tweetMessage,setTweetMessage]=useState('')

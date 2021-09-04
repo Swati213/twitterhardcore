@@ -1,15 +1,15 @@
 import React from "react";
 
-import { useState } from "react";
+//import { useState } from "react";
 import "./feed.css";
 import Post from "./Post";
 import Sdata from "./Sdata";
 
 import TweetBox from "./TweetBox";
-import FlipMove from "react-flip-move";
+//import FlipMove from "react-flip-move";
 
 function Feed() {
-  const [posts, setPosts] = useState([]);
+ // const [posts, setPosts] = useState([]);
   return (
     <div className="feed">
       <div className="feed__header">
